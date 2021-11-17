@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600&display=swap');
+
+:root {
+  --very-dark-magenta: hsl(300, 43%,22%);
+  --soft-pink: hsl(300, 80%, 67%);
+
+  --dark-grayish-magenta: hsl(303,  10%, 53%);
+  --light-grayish-magenta: hsl(300,24%, 96%);
+  --white: hsl(0, 0%, 100%);
+}
+
+*,
+  *::after,
+  *::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+  margin-top: 4.375em;
+  margin-left: 1.875em;
+  margin-right: 1.875em;
+  font-family: 'Spartan', sans-serif;
+  font-size: 15px;
+}
+
+
+
+.titulo {
+  font-size: 20px;
+  color: var(--very-dark-magenta);
+  text-align: center;
+  justify-content: center;
+}
+
+.titulo h1 {
+  font-size: 30px; 
+
+}
+
+.titulo p {
+  font-size: 14px;
+  margin-top:2em;
+  margin-bottom: 3em;
+  
+}
+
+.card {
+  background: var(--very-dark-magenta);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  color: var(--white);
+}
+
+.card h5{
+  color: var(--soft-pink);
+}
+
+.card p{
+  color: var(--white)
+}
+
+.foto-carnet{
+  border-radius: 50%;
+  width: 40px;
+}
+
+.card-estrella{
+  margin-bottom: 200px;
+  background: var(--light-grayish-magenta);
+  border-radius: 5px;
+  margin-bottom: 0.625em;
+  text-align: center;
+  color: var(--very-dark-magenta);
+  font-size: 10px;
+}
+
+.icono-estrella {
+  letter-spacing:5px;
+  padding-top: 1em ;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*------------- media query --------*/
+@media only screen and (min-width: 768px) {
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
